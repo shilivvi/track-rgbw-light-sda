@@ -524,6 +524,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   max-width: 30px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

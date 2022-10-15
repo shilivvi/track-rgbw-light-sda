@@ -6,7 +6,7 @@ function sendRequest( method, url, body = null ){
       if(xhr.status >= 400){
         reject(xhr.response)
       }else{
-        console.log( xhr.response )
+        //console.log( xhr.response )
         if( isJson( xhr.response ) ){
           resolve( JSON.parse(data) )
         }else{
@@ -38,8 +38,6 @@ function getVal(name){
 function submitVal(name, val) {
   const method = 'GET'
   const url = `set?${name}=${val}`
-
-  //console.log( url )
 
   sendRequest(method, url)
 }

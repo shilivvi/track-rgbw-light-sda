@@ -28,8 +28,9 @@ body{
 
 .container{
   width: 100%;
-  max-width: 100%;
+  max-width: 450px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .IroSlider{
@@ -41,15 +42,10 @@ body{
   display: none;
 }
 
-@import "header";
 @import "sliders-rgb";
 @import "rgb";
 @import "picker-rbg";
 @import "colors-rgb";
-@import "modes-rgb";
-@import "favorite-popup";
-@import "power-btn";
-@import "modes";
 
 .cur-mode{
   background: #fff;
